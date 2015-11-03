@@ -21,6 +21,6 @@ The server should respond to a request to /time that will send back the current 
  
 
 Rubric:
-Tests: 4pts
-Routes: 4pts
-Organization and gulpfile/package.json 2pts
+  * Tests: 4pts
+  * Routes: 4pts
+  * Organization and gulpfile/package.json 2pts

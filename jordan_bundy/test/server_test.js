@@ -24,9 +24,10 @@ describe('our server', function() {
   it('should take a post value', function(done) {
     chai.request('localhost:3000')
       .post('/name')
-      .field('name', 'Jordan')
+      .send('{"name": "Jordan"}')
       .end(function(err, res) {
-        expect(res.text).to.eql('{"name": "Jordan"}');
+        console.log(res);
+        expect(res.text).to.eql('{name: "Jordan"}');
         done();
     });
   });

@@ -18,7 +18,8 @@ routes['/name'] = {
     data: 'Hello there Mr. '
   },
   POST: {
-    
+    status: 200,
+    contentType: 'text/plain'
   }
 };
 
